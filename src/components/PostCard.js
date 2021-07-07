@@ -9,6 +9,7 @@ const PostCard = ({
   title,
   excerpt,
   slug,
+  date,
   categories = [],
   className = '',
   ...props
@@ -21,6 +22,9 @@ const PostCard = ({
     )}
     <div className="PostCard--Content">
       {title && <h3 className="PostCard--Title">{title}</h3>}
+      <div className="PostCard--Category">
+        {date}
+      </div>
       <div className="PostCard--Category">
         {categories && categories.map(cat => cat.category).join(', ')}
       </div>

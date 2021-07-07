@@ -16,6 +16,7 @@ module.exports = {
         includeInDevelopment: false
       }
     },
+    'gatsby-plugin-social-cards',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

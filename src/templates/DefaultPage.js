@@ -31,7 +31,7 @@ export const DefaultPageTemplate = ({
 
     <section className="section">
       <div className="container">
-        
+
         <Gallery images={gallery} />
       </div>
     </section>
@@ -52,6 +52,7 @@ export const pageQuery = graphql`
   query DefaultPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
+      ...Gallery
       html
       frontmatter {
         title
