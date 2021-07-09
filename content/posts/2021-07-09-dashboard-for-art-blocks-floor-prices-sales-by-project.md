@@ -23,4 +23,6 @@ On platforms like OpenSea, the sales are grouped by Curated, Playground, and Fac
 
 The [Art Blocks - Sales by Project Dashboard](https://duneanalytics.com/rantum/Art-Blocks) also include a history of each individual secondary transaction. That list is fully sortable and searchable, making it easy to find highest sales, recent sales, etc, as well as link to the OpenSea transaction. 
 
-This is the third Dune dashboard I've configured recently, and it's quickly becoming one of my most frequently used tools. Blockchain analysis is still relatively new, and I expect Dune to continue to improve. I've got another dashboard in the works, with plans to create an overview dashboard of [Art Blocks](http://artblocks.io/) projects to compare projects side by side.
+This is the third Dune dashboard I've configured recently, and it's quickly becoming one of my most frequently used tools. Blockchain analysis is still relatively new, and I expect Dune to continue to improve. I've got another dashboard in the works, with plans to create an overview dashboard of [Art Blocks](http://artblocks.io/) projects to compare projects side by side and will continue to make improvents to the existing dashboards. 
+
+[Check out the dashboard](https://duneanalytics.com/rantum/Art-Blocks), especially if you're an Art Blocks fan, and be sure to try changing the project ID in the top left.
