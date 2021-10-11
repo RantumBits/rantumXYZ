@@ -2,7 +2,7 @@
 template: HomePage
 slug: ""
 title: Rantum.xyz
-featuredImage: https://ucarecdn.com/188d20df-8771-4c3a-8097-d8f31bfd1c65/-/crop/1998x795/0,351/-/preview/
+featuredImage: https://ucarecdn.com/6ecf117b-25e6-451f-bf65-3e8834b13a26/
 subtitle: Digital art, NFTs, DAOs, social tokens & blockchain analytics
 meta:
   description: "Rantum.xyz covers digital art and non-fungible tokens (NFTs),
