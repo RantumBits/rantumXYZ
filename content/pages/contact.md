@@ -1,27 +1,28 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Page
+title: Contact Rantum
 featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
-subtitle: This is the contact page subtitle.
-address: '404 James St, Burleigh Heads QLD 4220'
-phone: 0987 123 456
-email: example@example.com
-locations:
-  - lat: '-27.9654732'
-    lng: '153.2432449'
-    mapLink: ''
+subtitle: Get in touch to disucss custom blockchain dashboards, NFT analytics, and more
+address: |-
+  6 Qwerty Bypass,
+  Origin City, CryptoVoxels
+phone: "1"
+email: "@RantumBits"
+locations: []
 meta:
-  description: This is a meta description.
+  description: "Contact Rantum.xyz / RantumBits for cutom blockchain analytics &
+    dashboards, NFT consulting, and more. "
   title: Contact Page
 ---
+# Get in Touch
 
-# Example contact form
+Reach out to discuss:
 
-This form is setup to use Netlify's form handling:
+* Custom blockchain dashboards
+* NFT Analytics
+* 3aNFT Podcast
+* NFT Dashboard suggestions
+* Other crypto opportunities
 
-- the form action is set to the current absolute url: `action: '/contact/'`
-- a name attribute is sent with the form's data `'form-name': 'Contact'`
-- netlify data attributes are added to the form `data-netlify data-netlify-honeypot`
-
-Find out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).
+Also feel free to contact [@RantumBits on Twitter](https://twitter.com/rantumbits)
