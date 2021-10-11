@@ -34,35 +34,30 @@ export const ContactPageTemplate = ({
             {address && (
               <a
                 className="Contact--Details--Item"
-                href={`https://www.google.com.au/maps/search/${encodeURI(
-                  address
-                )}`}
+                href={`https://www.cryptovoxels.com/play?coords=E@47W,274S,4F`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <MapPin /> {address}
               </a>
             )}
-            {phone && (
-              <a className="Contact--Details--Item" href={`tel:${phone}`}>
-                <Smartphone /> {phone}
-              </a>
-            )}
+
+  {/*
             {email && (
               <a className="Contact--Details--Item" href={`mailto:${email}`}>
                 <Mail /> {email}
               </a>
-            )}
+            )}*/}
           </div>
         </div>
 
         <div>
-          <FormSimpleAjax name="Simple Form Ajax" />
+          <FormSimpleAjax name="ContactForm" />
         </div>
       </div>
     </section>
-
-    <GoogleMap locations={locations} />
+  {/*
+    <GoogleMap locations={locations} />*/}
   </main>
 )
 
@@ -90,11 +85,7 @@ export const pageQuery = graphql`
         address
         phone
         email
-        locations {
-          mapLink
-          lat
-          lng
-        }
+
       }
     }
   }

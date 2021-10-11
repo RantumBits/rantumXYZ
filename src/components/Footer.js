@@ -9,7 +9,7 @@ export default () => (
       <div className="container taCenter">
         <span>
           © Copyright {new Date().getFullYear()} All rights reserved <br/>
-          <a href="https://twitter.com/RantumBits/">Rantum.eth</a>
+          <a href="https://twitter.com/RantumBits/">@RantumBits</a>
         </span>
       </div>
     </footer>

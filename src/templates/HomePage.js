@@ -21,9 +21,12 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, posts }
         <Content source={body} />
       </div>
     </section>
+
     {!!posts.length && (
       <section className="section">
+
         <div className="container">
+          <h2>Notes & Articles</h2>
           <PostSection posts={posts} />
         </div>
       </section>
@@ -66,7 +69,7 @@ export const pageQuery = graphql`
     }
 
     posts: allMarkdownRemark(
-      filter: {fields: {contentType: {eq: "posts"}}, frontmatter: {categories: {elemMatch: {category: {eq: "Articles"}}}}}
+      filter: {fields: {contentType: {eq: "posts"}}}
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {

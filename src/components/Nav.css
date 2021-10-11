@@ -6,7 +6,9 @@
   border-bottom: 1px solid var(--lightGrey);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
 }
-
+.sublink {
+    text-decoration: unset;
+}
 .Nav--Container {
   display: flex;
   align-items: center;
@@ -78,6 +80,7 @@
   position: absolute;
   top: 100%;
   left: 0;
+  min-width: 200px;
   width: auto;
   background: white;
   /* opacity: 0; */

@@ -72,7 +72,49 @@ export class Navigation extends Component {
           </Link>
           <div className="Nav--Links">
             {/* <NavLink to="/">Home</NavLink>
-             <NavLink to="/components/">Components</NavLink> */}
+             <NavLink to="/components/">Components</NavLink>*/}
+             <NavLink>   <a href="https://www.cryptovoxels.com/play?coords=E@47W,274S,4F" target="_blank" class="sublink">Metaverse Art Gallery</a> </NavLink>
+             <NavLink>   <a href="https://3aNFT.com" target="_blank" class="sublink">3aNFT Podcast</a> </NavLink>
+
+             <div
+               className={`Nav--Group ${
+                 this.state.activeSubNav === 'dash' ? 'active' : ''
+               }`}
+             >
+               <span
+                 className={`NavLink Nav--GroupParent ${
+                   this.props.location.pathname.includes('dashboards')
+
+                     ? 'active'
+                     : ''
+                 }`}
+                 onClick={() => this.toggleSubNav('dash')}
+                 onKeyDown={e => this.keyToggleSubNav(e, 'dash')}
+                 tabIndex={0}
+                 aria-label="Navigation"
+                 role="button"
+               >
+                 NFT Dashboards
+                 <div className="Nav--GroupLinks">
+
+                   <NavLink>
+                  <a href="https://dune.xyz/rantum/NFT-Sales-Overview-by-Project" target="_blank" class="sublink">NFT Sales Overview</a>
+                  </NavLink>
+                  <NavLink>
+                 <a href="https://dune.xyz/rantum/NFT-Collection-Dashboard" target="_blank" class="sublink">NFT Project Analytics</a>
+                 </NavLink>
+                 <NavLink>
+                <a href="https://dune.xyz/rantum/Art-Blocks-total-sales" target="_blank" class="sublink">ArtBlocks Overview</a>
+                </NavLink>
+                <NavLink>
+               <a href="https://duneanalytics.com/rantum/Art-Blocks" target="_blank" class="sublink">ArtBlocks Single Project Analytics </a>
+               </NavLink>
+                 </div>
+               </span>
+             </div>
+
+
+
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
@@ -81,7 +123,7 @@ export class Navigation extends Component {
               <span
                 className={`NavLink Nav--GroupParent ${
                   this.props.location.pathname.includes('posts') ||
-                  this.props.location.pathname.includes('blog') ||
+                  this.props.location.pathname.includes('notes') ||
                   this.props.location.pathname.includes('post-categories')
                     ? 'active'
                     : ''
@@ -92,7 +134,7 @@ export class Navigation extends Component {
                 aria-label="Navigation"
                 role="button"
               >
-                Blog
+                Notes & Articles
                 <div className="Nav--GroupLinks">
                   <NavLink to="/blog/" className="Nav--GroupLink">
                     All Posts
@@ -109,8 +151,8 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            {/*  <NavLink to="/default/">Default</NavLink>
-             <NavLink to="/contact/">Contact</NavLink> */}
+            {/*  <NavLink to="/default/">Default</NavLink>*/}
+             <NavLink to="/contact/">Contact</NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"
