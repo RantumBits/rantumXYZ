@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact Rantum
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
+featuredImage: https://ucarecdn.com/1d4eb4b2-e18d-463e-81df-6cd15bda6d6f/
 subtitle: Get in touch to disucss custom blockchain dashboards, NFT analytics, and more
 address: |-
   6 Qwerty Bypass,
