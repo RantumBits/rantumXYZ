@@ -2,7 +2,7 @@
 template: SinglePost
 title: NFT News & Links for Friday Feb 11 2022
 status: Published
-date: 2022-02-16
+date: 2022-02-11
 featuredImage: https://ucarecdn.com/6895893c-c96c-4721-8c8a-238aae92951a/
 excerpt: NFT links and news for Friday Feb 11 2022 including Salesforce planning
   an NFT Cloud - Ledger Insights - enterprise blockchain
